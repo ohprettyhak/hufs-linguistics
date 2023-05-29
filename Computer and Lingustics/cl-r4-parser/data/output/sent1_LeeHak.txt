@@ -1,9 +1,7 @@
 (S
-  (AuxV Can)
-  (NP (PRP you))
+  (NP (Det The) (NP (N company)))
   (VP
-    (V tell)
-    (NP (PRP me))
-    (SBAR (Wh who) (VP (V won) (NP (Det the) (NP (N game))))))
-  (PUNC ?))
+    (VP (AuxV is) (V looking) (P for))
+    (NP (Adj competent) (NP (N employees))))
+  (PUNC .))
 

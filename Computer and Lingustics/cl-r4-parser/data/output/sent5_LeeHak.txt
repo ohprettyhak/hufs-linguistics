@@ -1,0 +1,6 @@
+(S
+  (Wh Which)
+  (NP (N countries))
+  (VP (AuxV does) (NP (PRP he)) (VP (V want) (PP (P to) (V travel))))
+  (PUNC ?))
+
