@@ -26,4 +26,4 @@ def run(start_time, sentences):
 
 
 if __name__ == '__main__':
-    run(time.time_ns(), ['Many young girls and boys enjoyed watching that touching movie.'])
+    run(time.time_ns(), ['Let me know if you have any questions on the assignment.'])
