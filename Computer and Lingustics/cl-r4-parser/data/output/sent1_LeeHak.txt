@@ -1,11 +1,9 @@
 (S
-  (VP (V Let) (PRP me) (V know))
-  (SBAR
-    (Conj if)
-    (S
-      (PRP you)
-      (V have)
-      (NP (Det any) (NP (N questions)))
-      (PP (P on) (NP (Det the) (NP (N assignment))))))
-  (PUNC .))
+  (AuxV Can)
+  (NP (PRP you))
+  (VP
+    (V tell)
+    (NP (PRP me))
+    (SBAR (Wh who) (VP (V won) (NP (Det the) (NP (N game))))))
+  (PUNC ?))
 
