@@ -1,0 +1,34 @@
+(S
+  (NP
+    (NP (Det Many) (NP (Adj young) (NP (N girls))))
+    (Conj and)
+    (NP (N boys)))
+  (VP
+    (V enjoyed)
+    (VP
+      (V watching)
+      (NP (Det that) (NP (Adj touching) (NP (N movie))))))
+  (PUNC .))
+
+(S
+  (NP
+    (Det Many)
+    (NP (NP (Adj young) (NP (N girls))) (Conj and) (NP (N boys))))
+  (VP
+    (V enjoyed)
+    (VP
+      (V watching)
+      (NP (Det that) (NP (Adj touching) (NP (N movie))))))
+  (PUNC .))
+
+(S
+  (NP
+    (Det Many)
+    (NP (Adj young) (NP (NP (N girls)) (Conj and) (NP (N boys)))))
+  (VP
+    (V enjoyed)
+    (VP
+      (V watching)
+      (NP (Det that) (NP (Adj touching) (NP (N movie))))))
+  (PUNC .))
+

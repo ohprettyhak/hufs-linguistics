@@ -16,7 +16,7 @@ def run(start_time, sentences):
 
         trees = parser.parse(tokens)
 
-        out = open(f"data/output/{idx}_{start_time}.txt", "w")
+        out = open(f"data/output/sent{idx + 1}_LeeHak.txt", "w")
 
         for tree in trees:
             tree.pretty_print()
@@ -26,4 +26,4 @@ def run(start_time, sentences):
 
 
 if __name__ == '__main__':
-    run(time.time_ns(), ['The company is looking for competent employees.'])
+    run(time.time_ns(), ['Many young girls and boys enjoyed watching that touching movie.'])
