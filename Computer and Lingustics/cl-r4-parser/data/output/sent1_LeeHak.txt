@@ -1,7 +1,7 @@
 (S
-  (NP (Det The) (NP (N company)))
+  (NP (Det The) (N company))
   (VP
     (VP (AuxV is) (V looking) (P for))
-    (NP (Adj competent) (NP (N employees))))
+    (NP (Adj competent) (N employees)))
   (PUNC .))
 

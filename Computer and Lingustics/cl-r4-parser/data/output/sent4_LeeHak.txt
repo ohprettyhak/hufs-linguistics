@@ -1,10 +1,5 @@
 (S
-  (VP (AuxV Can) (NP (PRP you)) (VP (V tell) (PRP me)))
-  (SBAR (Wh who) (VP (V won) (NP (Det the) (NP (N game)))))
-  (PUNC ?))
-
-(S
-  (VP (AuxV Can) (NP (PRP you)) (VP (V tell) (NP (PRP me))))
-  (SBAR (Wh who) (VP (V won) (NP (Det the) (NP (N game)))))
+  (VP (AuxV Can) (PRP you) (VP (V tell) (PRP me)))
+  (SBAR (Wh who) (VP (V won) (NP (Det the) (N game))))
   (PUNC ?))
 

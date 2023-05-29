@@ -5,7 +5,7 @@
     (S
       (PRP you)
       (V have)
-      (NP (Det any) (NP (N questions)))
-      (PP (P on) (NP (Det the) (NP (N assignment))))))
+      (NP (Det any) (N questions))
+      (PP (P on) (NP (Det the) (N assignment)))))
   (PUNC .))
 

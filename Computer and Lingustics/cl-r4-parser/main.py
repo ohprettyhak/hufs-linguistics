@@ -10,9 +10,8 @@ def get_sentences():
 def run(start_time, sentences):
     for idx, sentence in enumerate(sentences):
         grammar = nltk.data.load("config/grammar.cfg")
-        parser = nltk.ChartParser(grammar, trace=2)
+        parser = nltk.ChartParser(grammar)
         tokens = nltk.tokenize.word_tokenize(sentence)
-        print(tokens)
 
         trees = parser.parse(tokens)
 
@@ -26,4 +25,4 @@ def run(start_time, sentences):
 
 
 if __name__ == '__main__':
-    run(time.time_ns(), ['The company is looking for competent employees.'])
+    run(time.time_ns(), get_sentences())
